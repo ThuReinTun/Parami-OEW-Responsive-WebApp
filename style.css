@@ -1,0 +1,504 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: Arial, Helvetica, Sans-serif;
+}
+.wrap {
+	position: relative; /* position relative for full screen backdrop */
+
+	margin: 0;
+	padding: 10px 20px;
+	z-index: 1;
+}
+/* header starts here *****/
+.wrap-header-main {
+	margin: 0;
+	padding: 0;
+	/*overflow: hidden;*/
+}
+	/* home header *****/
+	.home-header-view {
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	.timetable-header-view {
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		padding: 10px 20px 0 20px;
+		background: rgb(255, 255, 255);
+
+		/*overflow: hidden;*/
+		display: none;
+		z-index: 4;
+	}
+.link-button {
+	text-decoration: none;
+}
+.menu-toggle, .login-button, .timetable-off, .timetable-header-view > label {
+	margin: 0;
+	padding: 0;
+
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.menu-toggle, .timetable-off {
+	float: left;
+}
+.timetable-off {
+	border-radius: 40px;
+}
+.login-button, .timetable-header-view > label {
+	float: right;
+
+	color: rgb(237, 174, 54);
+	font-size: 11pt;
+	font-weight: bold;
+}
+.timetable-header-view > label {
+	color: rgb(0, 0, 0);
+}
+.menu-toggle > img {
+	height: 20px;
+	vertical-align: middle;
+}
+.timetable-off > img {
+	height: 30px;
+	vertical-align: middle;
+}
+/* end *****/
+
+/* body starts here *****/
+.wrap-body {
+	margin: 0;
+	padding: 0;
+}
+/* body content header starts here *****/
+.wrap-body-contentheader {
+	margin: 0;
+	padding: 10px 0;
+
+	text-align: center;
+}
+.wrap-body-contentheader h1 {
+	margin: 0;
+	padding: 0;
+
+	font-weight: bold;
+	font-size: 12pt;
+	color: rgb(0, 0, 0);
+	opacity: 1;
+}
+.wrap-body-contentheader h2 {
+	margin: 0;
+	padding: 0;
+	
+	font-weight: normal;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+	opacity: 0.7;
+}
+.wrap-body-contentparagraph {
+	text-indent: 1.5em;
+	width: 80%;
+	
+	margin: 0 auto;
+	padding: 20px 10%;
+
+	text-align: justify;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+	opacity: 0.7;
+}
+/* end *****/
+/* body button column starts here *****/
+.wrap-body-button-column {
+	overflow: hidden;
+
+	margin: 0;
+	padding: 20px 0;
+}
+.column-two {
+	overflow: hidden;
+
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	float: left;
+}
+.main-center-button {
+	width: 8em;
+
+	font-size: 10pt;
+	color: rgb(50, 145, 208);
+	text-align: center;
+
+	margin: 0 5px;
+	padding: 5px 0;
+
+	background: rgb(255, 255, 255);
+	border: 1pt solid rgb(50, 145, 208);
+	border-radius: 50px;
+	opacity: 1;
+}
+.main-center-button:hover {
+	background: rgb(50, 145, 208);
+	color: rgb(255, 255, 255);
+	opacity: 1;
+}
+.selected {
+	background: rgb(50, 145, 208);
+	color: rgb(255, 255, 255);
+	opacity: 1;
+}
+.left {
+	float: right;
+}
+.right {
+	float: left;
+}
+/* end *****/
+
+/* contactblock starts here*****/
+ /*media="screen and (min-width: 240px) and (max-width: 768px)"*/
+.wrap-body-contactblock {
+	overflow: hidden;
+
+	margin: 30px 0 20px 0;
+	padding: 0;
+}
+@media screen and (min-width: 240px) and (max-width: 768px) {
+	.wrap-body-contactblock {
+		overflow: hidden;
+
+		margin: 50px 0 20px 0;
+		padding: 0;
+	}
+}
+	/* img */
+.contact-map-img {
+	display: block;
+	float: right;
+
+	margin: 0;
+	padding: 0 5px 0 0;
+
+	height: 7em;
+}
+	/* end */
+.contact-details {
+	display: block;
+	float: left;
+
+	margin: 0;
+	padding: 0 0 0 5px;
+
+	text-align: left;
+}
+.contact-details h1 {
+	margin: 0;
+	padding: 0;
+
+	font-weight: bold;
+	font-size: 11pt;
+	color: rgb(0, 0, 0);
+	opacity: 1;
+}
+.contact-details h2 {
+	margin: 0;
+	padding: 0;
+
+	font-weight: normal;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+	opacity: 0.7;
+}
+.contact-details p {
+	margin: 0;
+	padding: 10px 0;
+
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+	opacity: 0.7;
+}
+.contact-details span {
+	margin: 0;
+	padding: 0;
+
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+	opacity: 0.7;
+}
+/* end *****/
+
+/* footer starts here *****/
+.wrap-footer {
+	margin: 0;
+	padding: 10px 0 0 0;
+
+	border-top: 1pt solid rgba(0, 0, 0, 0.5);
+}
+.footer-contactnumber {
+	margin: 0;
+	padding: 0;
+
+	text-align: right;
+}
+.footer-contactnumber h1 {
+	margin: 0;
+	padding: 0;
+
+	font-weight: normal;
+	font-size: 8pt;
+	color: rgba(0, 0, 0, 0.5);
+}
+.footer-contactnumber span {
+	margin: 0;
+	padding: 0;
+
+	font-size: 9pt;
+	color: rgba(0, 0, 0, 0.8);
+
+	text-decoration: none;
+}
+.phone-number {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1);
+}
+	/* about developer starts here *****/
+.about-dev {
+	margin: 20px 0 0 0;
+	padding: 0;
+	text-align: right;
+	font-size: 8pt;
+	color: rgba(0, 0, 0, 0.5);
+}
+.about-dev a {
+	color: rgb(237, 174, 54);
+	font-weight: bold;
+}
+.about-dev > .link-button {
+	margin: 20px 0 0 0;
+	padding: 5px 20px;
+
+	font-size: 9pt;
+	height: 40px;
+	line-height: 40px;
+
+	border: 1pt solid rgb(50, 145, 208);
+	color: rgb(50, 145, 208);
+}
+	/* end *****/
+
+/* timetable *****/
+.timetable-content-view {
+	position: absolute;
+	left: 20px;
+	top: 60px;
+	right: 20px;
+
+	/*margin: 0 0 10px 0;  /*setting 10px gap to bottom*/  
+	/*background: rgb(50, 145, 208);*/ /* blue border */
+	background: rgb(255, 255, 255); /* white border */
+	border-radius: 5px;
+	z-index: 3;
+
+	display: none;
+}
+.timetable-backdrop {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+
+	background: rgb(255, 255, 255);
+	z-index: 2;
+
+	display: none;
+}
+.weekday-block {
+	margin: 10px 5px;
+	padding: 10px 20px;
+
+	border-radius: 5px;
+	background: rgb(249, 249, 249);
+}
+.weekday-block h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 11pt;
+	color: rgb(0, 0, 0);
+	text-align: left;
+}
+.weekday-block p {
+	margin: 10px 0 0 30px;
+	padding: 0;
+}
+.weekday-block p a {
+	margin: 5px 0;
+	padding: 0;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+	opacity: 0.6;
+	text-align: left;
+	text-decoration: none;
+}
+/* end *****/
+
+.fullscreen-backdrop {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+
+	display: none; /* disappered at first load */
+	z-index: 2;
+}
+
+/* map show block, login-block *****/
+.map-show-block, .login-block, .about-dev-overlay {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	width: 80%;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+
+	display: none; /* disappered at first load */
+	z-index: 4;
+}
+/* end *****/
+
+/* login-block *****/ /* about-dev-overlay *****/
+.login-block > h1, .about-dev-overlay > h1 {
+	margin: 0;
+	padding: 10px 20px;
+
+	font-size: 11pt;
+
+	background: rgb(50, 145, 208);
+	color: rgb(255, 255, 255);
+}
+.about-dev-overlay-content {
+	margin: 0;
+	padding: 20px 20px 10px 20px;
+	background: rgb(255, 255, 255);
+}
+.about-dev-overlay-content p {
+	margin: 0 0 10px 0;
+	padding: 0;
+
+	text-indent: 3em;
+	text-align: left;
+	font-size: 10pt;
+	color: rgba(0, 0, 0, 0.5);
+}
+.about-dev-overlay-content a {
+	text-decoration: none;
+	color: rgb(237, 174, 54);
+}
+
+.login-form {
+	margin: 0;
+	padding: 20px;
+	background: rgb(255, 255, 255);
+
+	position: relative;
+}
+.login-form > input[type=text], .login-form > input[type=password] {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+
+	margin: 0;
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 10pt;
+
+	color: rgb(0, 0, 0);
+	background: rgb(255, 255, 255);
+	border: 1pt solid (0, 0, 0, 0.5);
+}
+.login-form > input[type=text] {
+	top: 20px;
+}
+.login-form > input[type=password] {
+	top: 80px;
+}
+.login-form > input[type=submit] {
+	display: block;
+
+	margin: 0 auto;
+	width: 40%;
+	text-align: center;
+
+	margin-top: 80px;
+	height: 30px;
+	line-height: 30px;
+}
+/* end *****/
+
+/* side menu starts here *****/
+.side-menu-backdrop {
+	height: 100%;
+	background: rgb(255, 255, 255);
+	opacity: 1;
+	z-index: 3;
+}
+.side-menu-backdrop, .side-menu {
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	margin: 0;
+	padding: 0;
+	/*padding-top: 60px;*/
+
+	width: 50%;
+
+	display: none;
+}
+.side-menu {
+	z-index: 4;
+}
+.side-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.side-menu-title, .side-menu-button {
+	display: block;
+
+	margin: 5px;
+	padding: 10px 20px;
+	font-size: 10pt;
+	height: 30px;
+	line-height: 30px;
+
+	text-align: center;
+	text-decoration: none;
+	border: 2pt solid rgb(50, 145, 208);
+}
+.side-menu-title, .side-menu-button:hover {
+	background: rgb(50, 145, 208);
+	color:  rgb(255, 255, 255);
+	/*cursor: default;*/
+}
+.side-menu-button {
+	background: rgb(255, 255, 255);
+	color:  rgb(50, 145, 208);
+	/*cursor: pointer;*/
+}
+.side-menu-button:hover {
+	border: 2pt solid rgb(225, 225, 225);
+}
+/* end *****/

@@ -1,0 +1,17 @@
+var timetableObj = {
+	"timetable" : {
+		"id" : "idnumber",
+		"received_time" : "time",
+		"last_updated" : "last_updated",
+		"classes" : [
+			["E.T (Theory)", "E.T (Calculation)", "no class"],
+			["M.E.K", "no class", "no class"],
+			["no class", "no class", "no class"],
+			["M.E.K", "E.T (Calculation)", "no class"],
+			["no class", "E.T (Theory)", "no class"],
+			["G.E.K", "G.E.K", "no class"],
+			["N.A (Calculation)", "S.C", "no class"]
+		],
+		"update_alert" : false
+	}
+}
